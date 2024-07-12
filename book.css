@@ -1,0 +1,247 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: rgba(250, 246, 239);
+    font-family: Helvetica;
+}
+
+nav{
+    /* background-color: white; */
+    
+    width: 100%;
+    height: 8.5vh;
+    
+    border-bottom: 2px solid black;
+    
+    /* position: fixed; */
+    
+    padding: 10px;
+    
+    z-index: 100;
+
+    background-color: rgba(250, 246, 239);
+    /* background-color: white; */
+}
+
+
+nav img{
+    width: 100%;
+    height: 5.5vh;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* top: 10%; */
+
+    margin-bottom: 5px;
+}
+
+nav i{
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+nav > span{
+    font-size: 25px;
+
+    position: absolute;
+    right: 0;
+
+    padding: 5px;
+}
+
+.headerlogo{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    /* padding: 10px; */
+
+    width: 95%;
+}
+
+hr{
+    border: 2px solid black;
+}
+
+/*  */
+
+.container-1{
+
+    width: 100vw;
+    height: 27vh;
+
+    /* background-color: lavender; */
+    border-bottom: 1px solid black;
+}
+
+.container-1 h1{
+    font-size: 80px;
+    font-weight: 500;
+
+    margin: 40px 0 20px 20px;
+
+
+}
+
+.container-1 span{
+    font-size: 18px;
+
+}
+
+.container-1 span:first-of-type{
+    font-weight: 700;
+    font-style: italic;
+
+    margin-left: 20px;
+}
+
+/*  */
+
+
+/*  */
+
+
+.container-2{
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    width: 33.3%;
+    height: 600px;
+
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: lightskyblue; */
+
+    font-size: 20px;
+}
+
+.box:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.box-i{
+    width: 100%;
+    height: 90%;
+
+    margin: 5px;
+}
+
+.q1{
+    background: url("https://superlap.world/cdn/shop/files/Group423.svg?v=1710360585&width=1536");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.q2{
+    background: url("https://superlap.world/cdn/shop/files/Group421.svg?v=1711940106&width=1536");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.q3{
+    background: url("https://superlap.world/cdn/shop/files/Group419.svg?v=1710360507&width=1536");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.q4{
+    background: url("https://superlap.world/cdn/shop/files/Group422.svg?v=1711939980&width=1536");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.q5{
+    background: url("https://superlap.world/cdn/shop/files/Group420.svg?v=1710360541&width=1536");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.q6{
+    background: url("https://superlap.world/cdn/shop/files/COMMUNITYRAE.png?v=1719785914&width=1536");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.q7{
+    background: url("https://superlap.world/cdn/shop/files/LAPLAB.png?v=1718049955&width=1536");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.q7:hover{
+    background: url("https://superlap.world/cdn/shop/files/LAPLAB.png?v=1718049955&width=1536");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.q8{
+    background: url("https://superlap.world/cdn/shop/files/NEW3.png?v=1720534105&width=1536");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.q9{
+    background: url("https://superlap.world/cdn/shop/files/Group460.svg?v=1710361718&width=960");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*  */
+.rate{
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 5px 0;
+
+    border-top: 1px solid black;
+
+    padding: 0 10px;
+}
+/*  */

@@ -33,6 +33,7 @@ nav{
     /* background-color: white; */
 }
 
+
 nav img{
     width: 100%;
     height: 5.5vh;
@@ -44,12 +45,6 @@ nav img{
 
     margin-bottom: 5px;
 }
-
-/* nav > i
-wherever i inside nav only */
-
-/* nav i
-wherever i comes anywhere inside nav, even the children of nav */
 
 nav i{
     font-size: 30px;
@@ -65,7 +60,6 @@ nav > span{
 
     padding: 5px;
 }
-
 
 .headerlogo{
     margin-top: 5%;
